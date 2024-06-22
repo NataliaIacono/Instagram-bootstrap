@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
   <div class="container-fluid">
     <nav class="navbar bg-body-tertiary">
       <a class="navbar-brand" href="#">
@@ -61,8 +62,8 @@
         </div>
         <form>
           <div class="dropdown">
-            <button class="btn btn-secondary btn-sm pt-2 pb-2 dropdown-toggle me-3" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <button class="btn btn-secondary btn-sm pt-2 pb-2 dropdown-toggle me-3" type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fa-solid fa-gear"></i>
 
               <ul class="dropdown-menu dropdown-menu-end">
@@ -80,6 +81,71 @@
       </div>
 
   </div>
+
+
+
+  <div class="justify-content-center gap-3 mt-3">
+    <ul class="nav nav-tabs justify-content-center border border-0" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+          role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
+          role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+      </li>
+
+    </ul>
+
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="">
+        
+        <div class="container-fluid text-center mt-3">          
+            <div class="row">
+              <div class="col-4">
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/206876/pexels-photo-206876.jpeg" alt="imagen1">
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/92382/pexels-photo-92382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen2">
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/56859/landscape-sunset-natural-clouds-56859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen3">
+              </div>
+              <div class="col-4">
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/127027/pexels-photo-127027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen1">
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/246931/pexels-photo-246931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen2">
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/210117/pexels-photo-210117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen3">
+              </div>
+              <div class="col-4">
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/2572/snow-dawn-mountains-sunset.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen1">
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/6750408/pexels-photo-6750408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen2">
+                <img class="img-fluid p-1" src="https://images.pexels.com/photos/15847311/pexels-photo-15847311/free-photo-of-resfriado-frio-nieve-nevar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen3">
+              </div>
+            </div>
+           
+        </div>
+      </div>
+
+
+
+
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+        <div class="d-flex justify-content-center mt3">
+          
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <img src="https://images.pexels.com/photos/6750422/pexels-photo-6750422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-bottom" alt="...">
+              <p><strong>204 likes</strong></p>
+              <p class="footer mt-n1">pie</p>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
